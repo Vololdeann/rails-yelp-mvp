@@ -1,0 +1,10 @@
+<h1>Edit a restaurant</h1>
+
+<%= render "form", restaurant: @restaurant %>
+
+<br>
+
+<div>
+  <%= link_to "Go to this restaurant", @restaurant %> |
+  <%= link_to "Back to the list", restaurants_path %>
+</div>
