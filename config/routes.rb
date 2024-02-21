@@ -13,6 +13,4 @@ Rails.application.routes.draw do
   resources :reviews, only: [:show, :edit, :update, :destroy]
   # Defines the root path route ("/")
   # root "posts#index"
-
-
 end
